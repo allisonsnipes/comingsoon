@@ -1,6 +1,7 @@
 <style>* {
   font-family: 'Permanent Marker', cursive;
   color: white;
+  transition: all 0.4s;
 }
 
 body, html {
@@ -12,6 +13,24 @@ body, html {
   min-height: 100%;
   background-position: center;
   background-size: cover;
+}
+
+.fade {
+  opacity: 0.5;
+  transition: 0.8s;
+}
+
+.fade:hover {
+  opacity: 1;
+}
+
+.w3-display-bottomleft, .w3-padding-large {
+  color: white;
+}
+
+.w3-animate-top {
+  opacity: 0.8;
+  transition: 1.0s;
 }
 
 </style>
